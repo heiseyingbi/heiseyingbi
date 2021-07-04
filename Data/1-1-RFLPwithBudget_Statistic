@@ -1,0 +1,10 @@
+=====================================
+ cplex_time=2
+ LR_time=5
+
+ cplex_Result=40960.4
+ LR_Result=40960.4
+
+ LR_PerformanceGAP=0
+ LR_OptimalityGAP=0.0190918
+

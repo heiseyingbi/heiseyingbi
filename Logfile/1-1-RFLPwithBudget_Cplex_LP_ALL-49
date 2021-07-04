@@ -1,0 +1,67 @@
+the cup time is 0
+Cost=38495.4
+Unreliable facilities:
+7 8 11 12 14 16 18 20 21 22 24 25 26 28 29 32 33 35 36 37 38 40 42 43 45 
+Reliable facilities:
+0 1 2 3 4 5 6 9 10 13 15 17 19 23 30 31 34 39 48 
+the customer assignments are 
+0->0(reliable)
+1->1(reliable)
+2->2(reliable)
+3->3(reliable)
+4->4(reliable)
+5->5(reliable)
+6->6(reliable)
+7->7(unreliable)->6(reliable)
+8->8(unreliable)->4(reliable)
+9->9(reliable)
+10->10(reliable)
+11->11(unreliable)->9(reliable)
+12->12(unreliable)->39(reliable)
+13->13(reliable)
+14->14(unreliable)->5(reliable)
+15->15(reliable)
+16->16(unreliable)->10(reliable)
+17->17(reliable)
+18->18(unreliable)->4(reliable)
+19->19(reliable)
+20->20(unreliable)->30(reliable)
+21->21(unreliable)->10(reliable)
+22->22(unreliable)->13(reliable)
+23->23(reliable)
+24->24(unreliable)->9(reliable)
+25->25(unreliable)->48(reliable)
+26->26(unreliable)->1(reliable)
+28->28(unreliable)->17(reliable)
+29->29(unreliable)->31(reliable)
+30->30(reliable)
+31->31(reliable)
+32->32(unreliable)->30(reliable)
+33->33(unreliable)->6(reliable)
+34->34(reliable)
+35->35(unreliable)->31(reliable)
+36->36(unreliable)->23(reliable)
+37->37(unreliable)->39(reliable)
+38->38(unreliable)->0(reliable)
+39->39(reliable)
+40->40(unreliable)->34(reliable)
+41->12(unreliable)->39(reliable)
+42->42(unreliable)->34(reliable)
+43->43(unreliable)->48(reliable)
+44->18(unreliable)->4(reliable)
+45->45(unreliable)->19(reliable)
+46->18(unreliable)->4(reliable)
+47->39(reliable)
+48->48(reliable)
+
+reliableFacilityFixedCost=13913.5
+unreliableFacilityFixedCost=18909.2
+facilityFixedCost=32822.7
+expectedTransportationCost=5672.78
+
+numOfopenedFacilities=44
+numOfhardeningFacilities=19
+numOfregularFacilities=25
+
+total budget=1610.37, usedBudget=1602.05
+TEST: the difference between the checkTotalCost and cpelx objective is1037.41

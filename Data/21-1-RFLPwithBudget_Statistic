@@ -1,0 +1,10 @@
+=====================================
+ cplex_time=0
+ LR_time=0
+
+ cplex_Result=0
+ LR_Result=0
+
+ LR_PerformanceGAP=-nan(ind)
+ LR_OptimalityGAP=0
+
